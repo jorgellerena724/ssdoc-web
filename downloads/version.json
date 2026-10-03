@@ -1,0 +1,418 @@
+{
+  "version": "1.1.4",
+  "build": 6,
+  "minBuild": 4,
+  "commit": "fd3d59ab68a54a6c71f6ebc214ca17b6d6fe4c29",
+  "builtAt": "2026-10-03T22:57:43Z",
+  "apps": {
+    "clinica": {
+      "file": "ssdoc-clinica.apk",
+      "sha256": "51a5846d76329aee7aa1838e665602f5ba91f55a0cfec9956f0475e41ba760cb",
+      "sizeBytes": 21302604,
+      "file32": "ssdoc-clinica-32bits.apk",
+      "sha256_32": "7e1c83e768514bdbac0be7c0e18fffdd66567924a37e9cb59b5834670dc3a02c",
+      "sizeBytes32": 18883880,
+      "certSha256": "97:DB:E8:71:36:DD:34:9B:B0:37:26:3B:0E:C8:B0:36:7F:C9:02:41:76:BC:BC:F6:CE:4F:2E:A1:88:D4:CB:F5"
+    },
+    "paciente": {
+      "file": "ssdoc-paciente.apk",
+      "sha256": "8e54c6a3b6c073b024f2dbcaa1a40ab7aab7af85496d1aeb8ad16c3abde8ec1c",
+      "sizeBytes": 21302788,
+      "file32": "ssdoc-paciente-32bits.apk",
+      "sha256_32": "eacb2ec785db201ab256255ca33dbffff8c5baa881807acdeec1c719d5ee3fc4",
+      "sizeBytes32": 18884064,
+      "certSha256": "97:DB:E8:71:36:DD:34:9B:B0:37:26:3B:0E:C8:B0:36:7F:C9:02:41:76:BC:BC:F6:CE:4F:2E:A1:88:D4:CB:F5"
+    }
+  },
+  "changelog": [
+    {
+      "version": "1.1.4",
+      "date": "2026-10-03",
+      "staff": [
+        {
+          "kind": "improved",
+          "text": "Los términos y la política de privacidad se leen dentro del registro: cada uno se despliega con su texto y el botón «Acepto» se habilita al llegar al final. Lo mismo al entrar cuando hay una versión nueva."
+        },
+        {
+          "kind": "improved",
+          "text": "Los campos llevan la etiqueta arriba y un ejemplo de qué escribir (nombre, documento, teléfono, motivo de la cita, diagnóstico, signos vitales con su unidad…)."
+        },
+        {
+          "kind": "improved",
+          "text": "El aviso de versión nueva es más claro: muestra si la actualización es obligatoria, su tamaño, cada novedad con su color y el avance de la descarga."
+        },
+        {
+          "kind": "fixed",
+          "text": "Los textos largos (nombres de pacientes, de la clínica, del menú, de las citas) se ven enteros en varias líneas, en vez de cortarse con «…»."
+        },
+        {
+          "kind": "fixed",
+          "text": "Al abrir la app ya no aparece un momento la pantalla de elegir plan cuando la clínica ya tiene uno."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "improved",
+          "text": "Al crear la cuenta, los términos y la política de privacidad se leen ahí mismo: cada uno se despliega con su texto y el botón «Acepto» se habilita al llegar al final."
+        },
+        {
+          "kind": "improved",
+          "text": "Los campos llevan la etiqueta arriba y un ejemplo de qué escribir."
+        },
+        {
+          "kind": "improved",
+          "text": "El aviso de versión nueva es más claro: muestra si la actualización es obligatoria, su tamaño, cada novedad con su color y el avance de la descarga."
+        },
+        {
+          "kind": "fixed",
+          "text": "Los textos largos (nombres, doctores, el comprobante de pago al pedir cita) se ven enteros en varias líneas, en vez de cortarse con «…»."
+        }
+      ],
+      "admin": [
+        {
+          "kind": "improved",
+          "text": "Los campos llevan la etiqueta arriba y un ejemplo de qué escribir."
+        },
+        {
+          "kind": "fixed",
+          "text": "Los nombres largos de las clínicas y de las estadísticas se ven enteros, en vez de cortarse con «…»."
+        }
+      ]
+    },
+    {
+      "version": "1.1.3",
+      "date": "2026-10-03",
+      "staff": [
+        {
+          "kind": "new",
+          "text": "Registrar la clínica es un asistente de 4 pasos (clínica, tu cuenta, ¿atiendes pacientes?, confirmar). Si también atiendes, completas tu ficha ahí mismo y quedas atendiendo desde el primer día."
+        },
+        {
+          "kind": "new",
+          "text": "El inicio del administrador muestra «Primeros pasos» (QR de cobro, quién atiende, invitar pacientes) con un atajo a cada uno, hasta completarlos."
+        },
+        {
+          "kind": "new",
+          "text": "Los términos y la política de privacidad tienen su propia página en la web (ssdoc.shirkasoft.com/legal). Desde la app se abren en el navegador sin perder lo que estabas llenando."
+        },
+        {
+          "kind": "improved",
+          "text": "Registrar la clínica pide marcar «He leído y acepto»: ya no hay que aceptar los documentos uno por uno al entrar."
+        },
+        {
+          "kind": "improved",
+          "text": "Quien entra por primera vez (doctor o recepción creados por el admin) o cuando cambia una versión, acepta todo con una sola casilla en vez de leer cada texto en la app."
+        },
+        {
+          "kind": "improved",
+          "text": "Dar de alta a un doctor en Equipo pide la cuenta y su ficha profesional en la misma hoja, en dos pasos."
+        },
+        {
+          "kind": "improved",
+          "text": "Los formularios explican qué poner en cada campo (toca el ⓘ) y revisan los datos antes de enviar: nombre completo, documento, teléfono, contraseña con letras y números."
+        },
+        {
+          "kind": "improved",
+          "text": "La anticipación para reservar se escribe libremente (minutos, horas o días, hasta 30 días) en vez de elegirla de una lista."
+        },
+        {
+          "kind": "fixed",
+          "text": "En la web, entrar en la app de pacientes ya no cierra la sesión de la app de la clínica en el mismo navegador (ni al revés): cada una recuerda la suya."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "new",
+          "text": "Los términos y la política de privacidad se pueden leer en su propia página web antes de crear la cuenta."
+        },
+        {
+          "kind": "improved",
+          "text": "Crear la cuenta (con el QR de la clínica o con un código de invitación) pide marcar «He leído y acepto» los términos y la política, con enlace a cada uno."
+        },
+        {
+          "kind": "improved",
+          "text": "Con el QR de la clínica, el consentimiento informado se da en el mismo registro y usa la foto del documento que ya subiste: no hay que subirla otra vez."
+        },
+        {
+          "kind": "improved",
+          "text": "Si todavía no diste tu consentimiento informado, la app te lo pide al entrar y queda un aviso en el inicio hasta que lo des."
+        },
+        {
+          "kind": "improved",
+          "text": "Los datos de la cuenta y del perfil se revisan antes de enviar, con una ayuda en cada campo."
+        },
+        {
+          "kind": "fixed",
+          "text": "En la web, la sesión se mantiene aunque en el mismo navegador se use también la app de la clínica."
+        }
+      ],
+      "admin": []
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-10-02",
+      "staff": [
+        {
+          "kind": "new",
+          "text": "Mi perfil: quien administra la clínica puede activar «Atiendo pacientes» y trabajar también como doctor (historia clínica, exámenes y agenda propia) sin otra cuenta. Ocupa el cupo de doctor del plan."
+        },
+        {
+          "kind": "fixed",
+          "text": "Si cambian tu rol en Equipo, la app lo toma al abrirla, sin tener que cerrar sesión."
+        },
+        {
+          "kind": "fixed",
+          "text": "El aviso de versión nueva compara la versión, no solo el número de compilación: antes podía decir que estabas en la última sin estarlo."
+        },
+        {
+          "kind": "fixed",
+          "text": "El uso del almacenamiento muestra lo subido aunque sea poco (en KB o MB con decimal); antes unas fotos se veían como \"0 MB\"."
+        },
+        {
+          "kind": "new",
+          "text": "Mi perfil: quien atiende elige con cuánta anticipación, como mínimo, le pueden pedir cita los pacientes (por defecto, 1 hora)."
+        },
+        {
+          "kind": "improved",
+          "text": "Toda cita que piden los pacientes llega con el comprobante del pago para revisar; el aviso de nueva cita lo dice."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "fixed",
+          "text": "El aviso de versión nueva compara la versión, no solo el número de compilación: antes podía decir que estabas en la última sin estarlo."
+        },
+        {
+          "kind": "improved",
+          "text": "Al pedir una cita eliges el día en un calendario por meses (hasta 3 meses adelante), y solo ves los horarios libres del doctor."
+        },
+        {
+          "kind": "improved",
+          "text": "No se ofrecen los días en los que ya tienes una cita, ni horarios con menos anticipación de la que pide el doctor."
+        },
+        {
+          "kind": "improved",
+          "text": "Los días y horarios para pedir cita van en la hora de la clínica, aunque tu teléfono esté en otra zona horaria."
+        },
+        {
+          "kind": "improved",
+          "text": "Si el horario que elegiste se ocupó mientras pedías la cita, vuelves al calendario con los horarios actualizados."
+        },
+        {
+          "kind": "improved",
+          "text": "Al pedir una cita, el pago es obligatorio: pagas con el QR de la clínica y adjuntas el comprobante antes de confirmar. Ya no existe \"Pagar después\"."
+        }
+      ],
+      "admin": []
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-10-01",
+      "staff": [
+        {
+          "kind": "fixed",
+          "text": "Guardar una atención con signos vitales ya no da error."
+        },
+        {
+          "kind": "fixed",
+          "text": "Al editar una atención no se pierden los signos vitales escritos como texto."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "new",
+          "text": "Mi historia: lee las atenciones que registró tu doctor (diagnóstico, tratamiento y signos vitales)."
+        }
+      ],
+      "admin": []
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-30",
+      "staff": [
+        {
+          "kind": "new",
+          "text": "La app avisa cuando hay una versión nueva, muestra sus novedades y se actualiza desde ahí mismo (Android)."
+        },
+        {
+          "kind": "new",
+          "text": "Notificaciones en el teléfono: citas pedidas o canceladas por pacientes, comprobantes para revisar, pacientes registrados con el QR, tu clínica habilitada y la licencia por vencer."
+        },
+        {
+          "kind": "new",
+          "text": "Resumen de tus citas del día a las 7:00 (doctores)."
+        },
+        {
+          "kind": "new",
+          "text": "Bandeja de avisos (la campanita): todas tus notificaciones guardadas, aunque no hayas dado permiso o no tengas la app instalada."
+        },
+        {
+          "kind": "new",
+          "text": "Clínica: zona horaria, con la que se escriben las horas de las notificaciones."
+        },
+        {
+          "kind": "new",
+          "text": "SSDoc Clínica es la app del equipo (administración, doctores y recepción); los pacientes tienen la suya, SSDoc."
+        },
+        {
+          "kind": "new",
+          "text": "Registro por QR: muestra el QR o comparte el enlace de la clínica y cada paciente crea su cuenta con la foto de su documento."
+        },
+        {
+          "kind": "new",
+          "text": "Revisión de registros (administración): verifica o rechaza la foto del documento; si el CI ya tenía ficha, al verificar se vincula a ella."
+        },
+        {
+          "kind": "new",
+          "text": "Inicio con las cifras del día (citas, por atender, próxima, pacientes), la agenda de hoy y el uso del plan."
+        },
+        {
+          "kind": "new",
+          "text": "Pacientes: búsqueda, alta y ficha con sus datos, citas e invitación al portal (QR, enlace y código)."
+        },
+        {
+          "kind": "new",
+          "text": "Historia clínica y exámenes en la ficha del paciente (solo doctores)."
+        },
+        {
+          "kind": "new",
+          "text": "Agenda en tarjetas por mes, con filtros por periodo, estado y doctor."
+        },
+        {
+          "kind": "new",
+          "text": "Equipo: alta, edición y baja del personal (solo administración)."
+        },
+        {
+          "kind": "new",
+          "text": "Clínica: nombre, licencia, uso del plan y QR de pago."
+        },
+        {
+          "kind": "new",
+          "text": "Al registrar la clínica se sube el QR con el que cobra las citas."
+        },
+        {
+          "kind": "new",
+          "text": "Revisión de pagos: ve el comprobante del paciente y verifícalo o recházalo; también puedes marcar una cita como pagada."
+        },
+        {
+          "kind": "improved",
+          "text": "Botones de agregar flotantes y menú lateral en el teléfono."
+        },
+        {
+          "kind": "new",
+          "text": "Al entrar, la app pide leer y aceptar los documentos legales que te tocan (política de privacidad y, si atiendes, términos del profesional)."
+        },
+        {
+          "kind": "new",
+          "text": "Mi perfil: tu cuenta, tu ficha profesional (documento, matrícula, especialidad, país) y los documentos legales que aceptaste."
+        },
+        {
+          "kind": "new",
+          "text": "Equipo: la administración completa la ficha profesional de cada médico; al dar de alta a un doctor se abre sola."
+        },
+        {
+          "kind": "new",
+          "text": "Ficha del paciente: sus consentimientos informados, cuántos siguen activos y la foto del documento con que se identificó."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "new",
+          "text": "La app avisa cuando hay una versión nueva, muestra sus novedades y se actualiza desde ahí mismo (Android)."
+        },
+        {
+          "kind": "new",
+          "text": "Bandeja de avisos con todas tus notificaciones (la campanita de arriba)."
+        },
+        {
+          "kind": "new",
+          "text": "Notificaciones en el teléfono: cita confirmada, cancelada o cambiada, recordatorio 24 h y 2 h antes, pago verificado o rechazado e identidad verificada."
+        },
+        {
+          "kind": "new",
+          "text": "App propia para pacientes, en Android y en la web."
+        },
+        {
+          "kind": "new",
+          "text": "Crea tu cuenta con el QR o el enlace de tu clínica y la foto de tu documento; puedes usar la app mientras la clínica la revisa."
+        },
+        {
+          "kind": "fixed",
+          "text": "Los consentimientos guardan lo que marcas (antes quedaban todas las casillas como aceptadas)."
+        },
+        {
+          "kind": "new",
+          "text": "Mis citas: próximas y anteriores, con lo que falta pagar."
+        },
+        {
+          "kind": "new",
+          "text": "Pide una cita y págala con el QR de la clínica adjuntando la foto del comprobante."
+        },
+        {
+          "kind": "new",
+          "text": "Cancela tus citas y corrige tus datos de contacto."
+        },
+        {
+          "kind": "new",
+          "text": "Lee los términos del paciente y la política de privacidad al crear tu cuenta y acéptalos al entrar."
+        },
+        {
+          "kind": "new",
+          "text": "Consentimientos: da tu consentimiento informado para la telemedicina con la foto de tu documento, y revócalo cuando quieras."
+        }
+      ],
+      "admin": [
+        {
+          "kind": "new",
+          "text": "Notificaciones de clínicas nuevas, clínicas que esperan licencia y licencias por vencer o vencidas."
+        },
+        {
+          "kind": "new",
+          "text": "Resumen de la plataforma: clínicas por estado y las que necesitan algo (licencia por emitir, vencida o por vencer)."
+        },
+        {
+          "kind": "new",
+          "text": "Listado de clínicas con búsqueda y filtro por estado."
+        },
+        {
+          "kind": "new",
+          "text": "Ficha de cada clínica: emite o extiende su licencia, suspéndela o reactívala y edita su plan, vencimiento y límites."
+        },
+        {
+          "kind": "new",
+          "text": "Catálogo de planes."
+        },
+        {
+          "kind": "new",
+          "text": "Informe legal: quién aceptó cada documento, cuándo y desde dónde, con alerta si alguna aceptación fue alterada."
+        }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-09-29",
+      "staff": [
+        {
+          "kind": "new",
+          "text": "Registra tu clínica, elige un plan y empieza con 15 días de prueba."
+        },
+        {
+          "kind": "new",
+          "text": "Una sola app para administración, doctores y recepción: cada uno ve solo lo que le toca."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "new",
+          "text": "Activa tu acceso con el código o el enlace que te da tu clínica."
+        }
+      ],
+      "admin": [
+        {
+          "kind": "new",
+          "text": "Acceso al panel de la plataforma."
+        }
+      ]
+    }
+  ]
+}
