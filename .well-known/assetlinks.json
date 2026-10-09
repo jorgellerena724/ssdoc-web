@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ssdoc.app.paciente",
+      "sha256_cert_fingerprints": [
+        "97:DB:E8:71:36:DD:34:9B:B0:37:26:3B:0E:C8:B0:36:7F:C9:02:41:76:BC:BC:F6:CE:4F:2E:A1:88:D4:CB:F5"
+      ]
+    }
+  }
+]

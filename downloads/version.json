@@ -1,0 +1,730 @@
+{
+  "version": "1.1.7",
+  "build": 9,
+  "minBuild": 4,
+  "commit": "67505ddf12698f1b7796dd3bdb64e5d188693ca6",
+  "builtAt": "2026-10-09T20:48:52Z",
+  "apps": {
+    "clinica": {
+      "file": "ssdoc-clinica.apk",
+      "sha256": "b1d64e71aee21a9cecbb09d7f0a011b5f3bcd3fa3f215f1dc4745edf4986159e",
+      "sizeBytes": 43189171,
+      "file32": "ssdoc-clinica-32bits.apk",
+      "sha256_32": "114d8a4403a4dc667c24953631a8308a60d61449d25f9fbe327001fd930ae866",
+      "sizeBytes32": 33734185,
+      "certSha256": "97:DB:E8:71:36:DD:34:9B:B0:37:26:3B:0E:C8:B0:36:7F:C9:02:41:76:BC:BC:F6:CE:4F:2E:A1:88:D4:CB:F5"
+    },
+    "paciente": {
+      "file": "ssdoc-paciente.apk",
+      "sha256": "cdb3a97d40a03bff2eb117911697a0a1dd56339fa1ec50568060ccd6e6712683",
+      "sizeBytes": 43189319,
+      "file32": "ssdoc-paciente-32bits.apk",
+      "sha256_32": "99863a2b25d50bbb765776c6b2411c79407e04f682d5f5bfe2fd561c69268dcd",
+      "sizeBytes32": 33734333,
+      "certSha256": "97:DB:E8:71:36:DD:34:9B:B0:37:26:3B:0E:C8:B0:36:7F:C9:02:41:76:BC:BC:F6:CE:4F:2E:A1:88:D4:CB:F5"
+    }
+  },
+  "changelog": [
+    {
+      "version": "1.1.7",
+      "date": "2026-10-09",
+      "staff": [
+        {
+          "kind": "new",
+          "text": "«Consulta ahora»: el doctor abre una videoconsulta que empieza en el momento, sin agendarla antes. Al paciente le llega el aviso y entra cuando paga."
+        },
+        {
+          "kind": "new",
+          "text": "Cuando el paciente entra a la videoconsulta y no estás, te suena el teléfono como una llamada, aunque la app esté cerrada o el teléfono bloqueado: Contestar te lleva directo a la sala y Rechazar le avisa al paciente. En la web aparece un aviso para contestar o rechazar."
+        },
+        {
+          "kind": "new",
+          "text": "Horario de atención: en «Mi perfil» cada doctor marca los días que atiende, de qué hora a qué hora y su almuerzo. Los turnos que pueden pedir los pacientes salen de ese horario."
+        },
+        {
+          "kind": "new",
+          "text": "Línea directa: el doctor la ofrece con su precio y el paciente la toma por 30 días, con las llamadas que fija la clínica en «Clínica». El pago se revisa como el de una cita, desde el inicio."
+        },
+        {
+          "kind": "new",
+          "text": "Registro de llamadas: cada videoconsulta con su fecha, si llegaron a hablar y cuánto duró, y las perdidas. El doctor ve las suyas y el admin las de todos los doctores."
+        },
+        {
+          "kind": "improved",
+          "text": "Lo que cambia en la otra app (una cita pedida, un comprobante subido, una cita cancelada) aparece solo, sin tener que salir y volver a entrar."
+        },
+        {
+          "kind": "improved",
+          "text": "La historia clínica se ve plegada: cada atención muestra la fecha, quién atendió y el diagnóstico, y se despliega para ver el resto."
+        },
+        {
+          "kind": "improved",
+          "text": "El doctor entra a la videoconsulta recién con el pago verificado."
+        },
+        {
+          "kind": "fixed",
+          "text": "En la videoconsulta, tu recuadro se arrastra y se intercambia también con la cámara encendida."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "new",
+          "text": "Si tu doctor abre una «Consulta ahora», te llega el aviso: pagas y entras."
+        },
+        {
+          "kind": "new",
+          "text": "Línea directa: tómala con tu doctor (pagas con el QR de la clínica) y llámalo desde «Mis citas» cuando lo necesites, sin pedir cita, durante 30 días."
+        },
+        {
+          "kind": "new",
+          "text": "Al entrar a la videoconsulta, a tu doctor le suena la llamada. Si no puede atenderte en ese momento, te avisa en la sala."
+        },
+        {
+          "kind": "new",
+          "text": "En «Llamadas» ves tus videoconsultas: cuándo, con quién y cuánto duraron."
+        },
+        {
+          "kind": "new",
+          "text": "En «Mi historia» están tus exámenes: los ves y los descargas."
+        },
+        {
+          "kind": "new",
+          "text": "En «Mis datos» puedes cargar tu fecha de nacimiento, sexo, grupo sanguíneo y alergias."
+        },
+        {
+          "kind": "improved",
+          "text": "Los turnos que puedes pedir respetan el horario de atención de cada doctor."
+        },
+        {
+          "kind": "improved",
+          "text": "Tus citas, tu historia y los horarios libres se ponen al día solos. Si la clínica elimina una cita, te avisa y desaparece al momento."
+        },
+        {
+          "kind": "improved",
+          "text": "La historia clínica se ve plegada, con quién te atendió en cada consulta."
+        },
+        {
+          "kind": "fixed",
+          "text": "En la videoconsulta, tu recuadro se arrastra y se intercambia también con la cámara encendida."
+        }
+      ],
+      "admin": []
+    },
+    {
+      "version": "1.1.6",
+      "date": "2026-10-09",
+      "staff": [
+        {
+          "kind": "improved",
+          "text": "Nueva pantalla de videoconsulta: sala de espera con la hora de la cita, controles con nombre que se esconden solos (vuelven al tocar la pantalla), tu recuadro se arrastra a cualquier esquina y al tocarlo se intercambia con el otro, y se ve si el otro silenció el micrófono, si está hablando y cómo está su conexión."
+        },
+        {
+          "kind": "improved",
+          "text": "En la videoconsulta, botón para pasar el audio del altavoz al auricular. Si se oye un pito (pasa cuando los dos teléfonos están cerca y con altavoz), con el auricular o con audífonos desaparece."
+        },
+        {
+          "kind": "fixed",
+          "text": "En la videoconsulta, tu propia imagen ya no se mezcla con la del paciente mientras la cámara arranca."
+        },
+        {
+          "kind": "fixed",
+          "text": "Una cita que empezó antes de la medianoche, o tarde a la noche, ya no desaparece de la lista de citas ni del inicio mientras su sala sigue abierta. La tarjeta dice «En curso» mientras dura la consulta."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "new",
+          "text": "Al crear la cuenta en la app se puede escanear el QR de la clínica (o el de la invitación) con la cámara, o leerlo de una imagen, en vez de escribir el código."
+        },
+        {
+          "kind": "improved",
+          "text": "Nueva pantalla de videoconsulta: sala de espera con la hora de la cita, controles con nombre que se esconden solos (vuelven al tocar la pantalla), tu recuadro se arrastra a cualquier esquina y al tocarlo se intercambia con el otro, y se ve si el otro silenció el micrófono, si está hablando y cómo está su conexión."
+        },
+        {
+          "kind": "improved",
+          "text": "En la videoconsulta, botón para pasar el audio del altavoz al auricular."
+        },
+        {
+          "kind": "fixed",
+          "text": "En la videoconsulta, tu propia imagen ya no se mezcla con la del doctor mientras la cámara arranca."
+        },
+        {
+          "kind": "improved",
+          "text": "La tarjeta de la cita dice «En curso» mientras dura la videoconsulta."
+        }
+      ],
+      "admin": []
+    },
+    {
+      "version": "1.1.5",
+      "date": "2026-10-08",
+      "staff": [
+        {
+          "kind": "new",
+          "text": "Videoconsulta dentro de la app. En la ficha de la cita, el doctor ve «Entrar a la videoconsulta» desde 15 minutos antes de la hora. La llamada está cifrada de extremo a extremo y no se graba."
+        },
+        {
+          "kind": "new",
+          "text": "La ficha de la cita dice qué le falta al paciente para poder entrar (confirmación, pago o consentimiento), y después de la consulta muestra a qué hora entró cada uno y cuándo se cerró la sala."
+        },
+        {
+          "kind": "new",
+          "text": "Avisos «Tu paciente te espera» cuando el paciente entra a la sala y «Tu videoconsulta empieza pronto» 10 minutos antes."
+        },
+        {
+          "kind": "new",
+          "text": "Tipos de consulta. Cada doctor arma los suyos en Mi perfil: nombre, descripción, precio y duración. El paciente elige uno al pedir la cita, y al revisar el comprobante aparece el monto esperado."
+        },
+        {
+          "kind": "new",
+          "text": "Toda cita lleva un tipo de consulta: al agendarla se elige y su duración define cuánto ocupa en la agenda. Si un doctor todavía no cargó ninguno, no se le pueden agendar citas y el inicio se lo avisa."
+        },
+        {
+          "kind": "new",
+          "text": "Verificar el pago confirma la cita en el mismo paso."
+        },
+        {
+          "kind": "new",
+          "text": "Rechazar un comprobante pide el motivo, que le llega al paciente. El comprobante rechazado queda guardado por si hay un reclamo."
+        },
+        {
+          "kind": "new",
+          "text": "Aviso si el mismo comprobante ya se usó en otra cita."
+        },
+        {
+          "kind": "new",
+          "text": "Devoluciones. En Clínica se define el plazo para cancelar con devolución. Si una cita pagada se cancela a tiempo (o la cancela la clínica), el pago queda «a devolver» hasta que lo marques como devuelto."
+        },
+        {
+          "kind": "new",
+          "text": "El inicio muestra los pagos por revisar y los pagos a devolver."
+        },
+        {
+          "kind": "new",
+          "text": "Aviso «Pago sin revisar» 3 horas antes de una cita cuyo comprobante nadie revisó."
+        },
+        {
+          "kind": "improved",
+          "text": "Para confirmar una cita, el paciente tiene que tener cuenta en el portal. Sin ella no podría entrar a la videoconsulta. Al elegir un paciente sin cuenta, el formulario de la cita lo avisa."
+        },
+        {
+          "kind": "improved",
+          "text": "Los avisos de una cita abren esa cita. Con «Tu paciente te espera» se entra a la sala con un toque."
+        },
+        {
+          "kind": "improved",
+          "text": "Al marcar una cita como atendida, si el paciente nunca entró a la sala, la app pregunta si fue un «no se presentó». Después ofrece escribir la historia clínica con la fecha y el motivo ya cargados."
+        },
+        {
+          "kind": "improved",
+          "text": "El aviso del comprobante también le llega al doctor de la cita, y el pago lo revisan solo él, recepción y el admin."
+        },
+        {
+          "kind": "improved",
+          "text": "El QR de pago ya no se puede quitar, solo reemplazar: los pacientes pagan con él."
+        },
+        {
+          "kind": "improved",
+          "text": "«Sala abierta» aparece y desaparece solo en las tarjetas de las citas, sin recargar."
+        },
+        {
+          "kind": "improved",
+          "text": "Al revocar su consentimiento, si el paciente tiene videoconsultas por venir, te llega un aviso: no podrá entrar hasta que lo vuelva a dar."
+        },
+        {
+          "kind": "improved",
+          "text": "La foto del documento de identidad del consentimiento la ven solo el admin y los doctores."
+        },
+        {
+          "kind": "fixed",
+          "text": "Ya no se puede agendar ni reprogramar una cita en el pasado."
+        },
+        {
+          "kind": "fixed",
+          "text": "«Atendida» y «No se presentó» aparecen recién desde la hora de la cita."
+        },
+        {
+          "kind": "fixed",
+          "text": "En los teléfonos con navegación por botones, los botones de los formularios y el final de las listas ya no quedan debajo de la barra del teléfono."
+        },
+        {
+          "kind": "fixed",
+          "text": "Al cerrar sesión la app ya no muestra un error por un instante."
+        },
+        {
+          "kind": "fixed",
+          "text": "Si el teléfono cierra la app mientras eliges el QR de pago al dar de alta la clínica (pasa en teléfonos con poca memoria), al volver a abrirla el alta sigue donde estaba, con el QR elegido."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "new",
+          "text": "Videoconsulta dentro de la app. Con la cita confirmada y pagada, en la ficha de la cita aparece «Entrar a la videoconsulta» desde 15 minutos antes. La llamada está cifrada de extremo a extremo y no se graba."
+        },
+        {
+          "kind": "new",
+          "text": "Si todavía no puedes entrar, la ficha de la cita te dice qué falta: la confirmación de la clínica, el pago o tu consentimiento informado."
+        },
+        {
+          "kind": "new",
+          "text": "Avisos «Tu videoconsulta empieza pronto» 10 minutos antes y «Tu doctor te espera» cuando el doctor ya está en la sala."
+        },
+        {
+          "kind": "new",
+          "text": "Al pedir una cita eliges el tipo de consulta, con su descripción, duración y precio. Los horarios que se ofrecen son los que alcanzan para esa consulta."
+        },
+        {
+          "kind": "new",
+          "text": "Ves cuánto pagar y hasta cuándo puedes cancelar con devolución."
+        },
+        {
+          "kind": "new",
+          "text": "Si la clínica rechaza tu comprobante, te dice por qué."
+        },
+        {
+          "kind": "new",
+          "text": "Si cancelas a tiempo una cita pagada, la clínica te devuelve el pago y la app te muestra en qué quedó. Antes de cancelar, la app te dice si se devuelve o no."
+        },
+        {
+          "kind": "improved",
+          "text": "Antes de pedir tu primera cita, la app te pide el consentimiento informado para telemedicina."
+        },
+        {
+          "kind": "improved",
+          "text": "Los avisos de una cita abren esa cita. Con «Tu doctor te espera» entras a la sala con un toque."
+        },
+        {
+          "kind": "improved",
+          "text": "Cuando la clínica verifica tu pago, la cita queda confirmada en el mismo paso."
+        },
+        {
+          "kind": "improved",
+          "text": "El recordatorio de la cita te avisa si tu pago todavía no está verificado."
+        },
+        {
+          "kind": "improved",
+          "text": "El consentimiento informado pide marcar las tres casillas, y ya no pregunta por la grabación: las videoconsultas no se graban."
+        },
+        {
+          "kind": "improved",
+          "text": "Antes de revocar tu consentimiento, la app te avisa si tienes videoconsultas por venir."
+        },
+        {
+          "kind": "improved",
+          "text": "Si la clínica te agenda una cita y te falta el consentimiento, el aviso y el recordatorio te lo piden."
+        },
+        {
+          "kind": "fixed",
+          "text": "En los teléfonos con navegación por botones, los botones de los formularios y el final de las listas ya no quedan debajo de la barra del teléfono."
+        },
+        {
+          "kind": "fixed",
+          "text": "Si el teléfono cierra la app mientras eliges la foto del documento en el registro (pasa en teléfonos con poca memoria), al volver a abrirla el registro sigue donde estaba. La foto del documento ahora se puede sacar con la cámara o elegir de la galería."
+        },
+        {
+          "kind": "fixed",
+          "text": "Al cerrar sesión la app ya no muestra un error por un instante."
+        },
+        {
+          "kind": "fixed",
+          "text": "Si el teléfono cierra la app mientras adjuntas el comprobante al pedir una cita, al volver a abrirla el pedido sigue en el mismo paso, con el doctor, la consulta, el día y la hora elegidos. El comprobante ahora se puede sacar con la cámara, elegir de la galería o adjuntar como PDF del banco."
+        }
+      ],
+      "admin": [
+        {
+          "kind": "fixed",
+          "text": "En los teléfonos con navegación por botones, el final del detalle de una clínica ya no queda debajo de la barra del teléfono."
+        }
+      ]
+    },
+    {
+      "version": "1.1.4",
+      "date": "2026-10-03",
+      "staff": [
+        {
+          "kind": "improved",
+          "text": "Los términos y la política de privacidad se leen dentro del registro: cada uno se despliega con su texto y el botón «Acepto» se habilita al llegar al final. Lo mismo al entrar cuando hay una versión nueva."
+        },
+        {
+          "kind": "improved",
+          "text": "Los campos llevan la etiqueta arriba y un ejemplo de qué escribir (nombre, documento, teléfono, motivo de la cita, diagnóstico, signos vitales con su unidad…)."
+        },
+        {
+          "kind": "improved",
+          "text": "El aviso de versión nueva es más claro: muestra si la actualización es obligatoria, su tamaño, cada novedad con su color y el avance de la descarga."
+        },
+        {
+          "kind": "fixed",
+          "text": "Los textos largos (nombres de pacientes, de la clínica, del menú, de las citas) se ven enteros en varias líneas, en vez de cortarse con «…»."
+        },
+        {
+          "kind": "fixed",
+          "text": "Al abrir la app ya no aparece un momento la pantalla de elegir plan cuando la clínica ya tiene uno."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "improved",
+          "text": "Al crear la cuenta, los términos y la política de privacidad se leen ahí mismo: cada uno se despliega con su texto y el botón «Acepto» se habilita al llegar al final."
+        },
+        {
+          "kind": "improved",
+          "text": "Los campos llevan la etiqueta arriba y un ejemplo de qué escribir."
+        },
+        {
+          "kind": "improved",
+          "text": "El aviso de versión nueva es más claro: muestra si la actualización es obligatoria, su tamaño, cada novedad con su color y el avance de la descarga."
+        },
+        {
+          "kind": "fixed",
+          "text": "Los textos largos (nombres, doctores, el comprobante de pago al pedir cita) se ven enteros en varias líneas, en vez de cortarse con «…»."
+        }
+      ],
+      "admin": [
+        {
+          "kind": "improved",
+          "text": "Los campos llevan la etiqueta arriba y un ejemplo de qué escribir."
+        },
+        {
+          "kind": "fixed",
+          "text": "Los nombres largos de las clínicas y de las estadísticas se ven enteros, en vez de cortarse con «…»."
+        }
+      ]
+    },
+    {
+      "version": "1.1.3",
+      "date": "2026-10-03",
+      "staff": [
+        {
+          "kind": "new",
+          "text": "Registrar la clínica es un asistente de 4 pasos (clínica, tu cuenta, ¿atiendes pacientes?, confirmar). Si también atiendes, completas tu ficha ahí mismo y quedas atendiendo desde el primer día."
+        },
+        {
+          "kind": "new",
+          "text": "El inicio del administrador muestra «Primeros pasos» (QR de cobro, quién atiende, invitar pacientes) con un atajo a cada uno, hasta completarlos."
+        },
+        {
+          "kind": "new",
+          "text": "Los términos y la política de privacidad tienen su propia página en la web (ssdoc.shirkasoft.com/legal). Desde la app se abren en el navegador sin perder lo que estabas llenando."
+        },
+        {
+          "kind": "improved",
+          "text": "Registrar la clínica pide marcar «He leído y acepto»: ya no hay que aceptar los documentos uno por uno al entrar."
+        },
+        {
+          "kind": "improved",
+          "text": "Quien entra por primera vez (doctor o recepción creados por el admin) o cuando cambia una versión, acepta todo con una sola casilla en vez de leer cada texto en la app."
+        },
+        {
+          "kind": "improved",
+          "text": "Dar de alta a un doctor en Equipo pide la cuenta y su ficha profesional en la misma hoja, en dos pasos."
+        },
+        {
+          "kind": "improved",
+          "text": "Los formularios explican qué poner en cada campo (toca el ⓘ) y revisan los datos antes de enviar: nombre completo, documento, teléfono, contraseña con letras y números."
+        },
+        {
+          "kind": "improved",
+          "text": "La anticipación para reservar se escribe libremente (minutos, horas o días, hasta 30 días) en vez de elegirla de una lista."
+        },
+        {
+          "kind": "fixed",
+          "text": "En la web, entrar en la app de pacientes ya no cierra la sesión de la app de la clínica en el mismo navegador (ni al revés): cada una recuerda la suya."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "new",
+          "text": "Los términos y la política de privacidad se pueden leer en su propia página web antes de crear la cuenta."
+        },
+        {
+          "kind": "improved",
+          "text": "Crear la cuenta (con el QR de la clínica o con un código de invitación) pide marcar «He leído y acepto» los términos y la política, con enlace a cada uno."
+        },
+        {
+          "kind": "improved",
+          "text": "Con el QR de la clínica, el consentimiento informado se da en el mismo registro y usa la foto del documento que ya subiste: no hay que subirla otra vez."
+        },
+        {
+          "kind": "improved",
+          "text": "Si todavía no diste tu consentimiento informado, la app te lo pide al entrar y queda un aviso en el inicio hasta que lo des."
+        },
+        {
+          "kind": "improved",
+          "text": "Los datos de la cuenta y del perfil se revisan antes de enviar, con una ayuda en cada campo."
+        },
+        {
+          "kind": "fixed",
+          "text": "En la web, la sesión se mantiene aunque en el mismo navegador se use también la app de la clínica."
+        }
+      ],
+      "admin": []
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-10-02",
+      "staff": [
+        {
+          "kind": "new",
+          "text": "Mi perfil: quien administra la clínica puede activar «Atiendo pacientes» y trabajar también como doctor (historia clínica, exámenes y agenda propia) sin otra cuenta. Ocupa el cupo de doctor del plan."
+        },
+        {
+          "kind": "fixed",
+          "text": "Si cambian tu rol en Equipo, la app lo toma al abrirla, sin tener que cerrar sesión."
+        },
+        {
+          "kind": "fixed",
+          "text": "El aviso de versión nueva compara la versión, no solo el número de compilación: antes podía decir que estabas en la última sin estarlo."
+        },
+        {
+          "kind": "fixed",
+          "text": "El uso del almacenamiento muestra lo subido aunque sea poco (en KB o MB con decimal); antes unas fotos se veían como \"0 MB\"."
+        },
+        {
+          "kind": "new",
+          "text": "Mi perfil: quien atiende elige con cuánta anticipación, como mínimo, le pueden pedir cita los pacientes (por defecto, 1 hora)."
+        },
+        {
+          "kind": "improved",
+          "text": "Toda cita que piden los pacientes llega con el comprobante del pago para revisar; el aviso de nueva cita lo dice."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "fixed",
+          "text": "El aviso de versión nueva compara la versión, no solo el número de compilación: antes podía decir que estabas en la última sin estarlo."
+        },
+        {
+          "kind": "improved",
+          "text": "Al pedir una cita eliges el día en un calendario por meses (hasta 3 meses adelante), y solo ves los horarios libres del doctor."
+        },
+        {
+          "kind": "improved",
+          "text": "No se ofrecen los días en los que ya tienes una cita, ni horarios con menos anticipación de la que pide el doctor."
+        },
+        {
+          "kind": "improved",
+          "text": "Los días y horarios para pedir cita van en la hora de la clínica, aunque tu teléfono esté en otra zona horaria."
+        },
+        {
+          "kind": "improved",
+          "text": "Si el horario que elegiste se ocupó mientras pedías la cita, vuelves al calendario con los horarios actualizados."
+        },
+        {
+          "kind": "improved",
+          "text": "Al pedir una cita, el pago es obligatorio: pagas con el QR de la clínica y adjuntas el comprobante antes de confirmar. Ya no existe \"Pagar después\"."
+        }
+      ],
+      "admin": []
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-10-01",
+      "staff": [
+        {
+          "kind": "fixed",
+          "text": "Guardar una atención con signos vitales ya no da error."
+        },
+        {
+          "kind": "fixed",
+          "text": "Al editar una atención no se pierden los signos vitales escritos como texto."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "new",
+          "text": "Mi historia: lee las atenciones que registró tu doctor (diagnóstico, tratamiento y signos vitales)."
+        }
+      ],
+      "admin": []
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-30",
+      "staff": [
+        {
+          "kind": "new",
+          "text": "La app avisa cuando hay una versión nueva, muestra sus novedades y se actualiza desde ahí mismo (Android)."
+        },
+        {
+          "kind": "new",
+          "text": "Notificaciones en el teléfono: citas pedidas o canceladas por pacientes, comprobantes para revisar, pacientes registrados con el QR, tu clínica habilitada y la licencia por vencer."
+        },
+        {
+          "kind": "new",
+          "text": "Resumen de tus citas del día a las 7:00 (doctores)."
+        },
+        {
+          "kind": "new",
+          "text": "Bandeja de avisos (la campanita): todas tus notificaciones guardadas, aunque no hayas dado permiso o no tengas la app instalada."
+        },
+        {
+          "kind": "new",
+          "text": "Clínica: zona horaria, con la que se escriben las horas de las notificaciones."
+        },
+        {
+          "kind": "new",
+          "text": "SSDoc Clínica es la app del equipo (administración, doctores y recepción); los pacientes tienen la suya, SSDoc."
+        },
+        {
+          "kind": "new",
+          "text": "Registro por QR: muestra el QR o comparte el enlace de la clínica y cada paciente crea su cuenta con la foto de su documento."
+        },
+        {
+          "kind": "new",
+          "text": "Revisión de registros (administración): verifica o rechaza la foto del documento; si el CI ya tenía ficha, al verificar se vincula a ella."
+        },
+        {
+          "kind": "new",
+          "text": "Inicio con las cifras del día (citas, por atender, próxima, pacientes), la agenda de hoy y el uso del plan."
+        },
+        {
+          "kind": "new",
+          "text": "Pacientes: búsqueda, alta y ficha con sus datos, citas e invitación al portal (QR, enlace y código)."
+        },
+        {
+          "kind": "new",
+          "text": "Historia clínica y exámenes en la ficha del paciente (solo doctores)."
+        },
+        {
+          "kind": "new",
+          "text": "Agenda en tarjetas por mes, con filtros por periodo, estado y doctor."
+        },
+        {
+          "kind": "new",
+          "text": "Equipo: alta, edición y baja del personal (solo administración)."
+        },
+        {
+          "kind": "new",
+          "text": "Clínica: nombre, licencia, uso del plan y QR de pago."
+        },
+        {
+          "kind": "new",
+          "text": "Al registrar la clínica se sube el QR con el que cobra las citas."
+        },
+        {
+          "kind": "new",
+          "text": "Revisión de pagos: ve el comprobante del paciente y verifícalo o recházalo; también puedes marcar una cita como pagada."
+        },
+        {
+          "kind": "improved",
+          "text": "Botones de agregar flotantes y menú lateral en el teléfono."
+        },
+        {
+          "kind": "new",
+          "text": "Al entrar, la app pide leer y aceptar los documentos legales que te tocan (política de privacidad y, si atiendes, términos del profesional)."
+        },
+        {
+          "kind": "new",
+          "text": "Mi perfil: tu cuenta, tu ficha profesional (documento, matrícula, especialidad, país) y los documentos legales que aceptaste."
+        },
+        {
+          "kind": "new",
+          "text": "Equipo: la administración completa la ficha profesional de cada médico; al dar de alta a un doctor se abre sola."
+        },
+        {
+          "kind": "new",
+          "text": "Ficha del paciente: sus consentimientos informados, cuántos siguen activos y la foto del documento con que se identificó."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "new",
+          "text": "La app avisa cuando hay una versión nueva, muestra sus novedades y se actualiza desde ahí mismo (Android)."
+        },
+        {
+          "kind": "new",
+          "text": "Bandeja de avisos con todas tus notificaciones (la campanita de arriba)."
+        },
+        {
+          "kind": "new",
+          "text": "Notificaciones en el teléfono: cita confirmada, cancelada o cambiada, recordatorio 24 h y 2 h antes, pago verificado o rechazado e identidad verificada."
+        },
+        {
+          "kind": "new",
+          "text": "App propia para pacientes, en Android y en la web."
+        },
+        {
+          "kind": "new",
+          "text": "Crea tu cuenta con el QR o el enlace de tu clínica y la foto de tu documento; puedes usar la app mientras la clínica la revisa."
+        },
+        {
+          "kind": "fixed",
+          "text": "Los consentimientos guardan lo que marcas (antes quedaban todas las casillas como aceptadas)."
+        },
+        {
+          "kind": "new",
+          "text": "Mis citas: próximas y anteriores, con lo que falta pagar."
+        },
+        {
+          "kind": "new",
+          "text": "Pide una cita y págala con el QR de la clínica adjuntando la foto del comprobante."
+        },
+        {
+          "kind": "new",
+          "text": "Cancela tus citas y corrige tus datos de contacto."
+        },
+        {
+          "kind": "new",
+          "text": "Lee los términos del paciente y la política de privacidad al crear tu cuenta y acéptalos al entrar."
+        },
+        {
+          "kind": "new",
+          "text": "Consentimientos: da tu consentimiento informado para la telemedicina con la foto de tu documento, y revócalo cuando quieras."
+        }
+      ],
+      "admin": [
+        {
+          "kind": "new",
+          "text": "Notificaciones de clínicas nuevas, clínicas que esperan licencia y licencias por vencer o vencidas."
+        },
+        {
+          "kind": "new",
+          "text": "Resumen de la plataforma: clínicas por estado y las que necesitan algo (licencia por emitir, vencida o por vencer)."
+        },
+        {
+          "kind": "new",
+          "text": "Listado de clínicas con búsqueda y filtro por estado."
+        },
+        {
+          "kind": "new",
+          "text": "Ficha de cada clínica: emite o extiende su licencia, suspéndela o reactívala y edita su plan, vencimiento y límites."
+        },
+        {
+          "kind": "new",
+          "text": "Catálogo de planes."
+        },
+        {
+          "kind": "new",
+          "text": "Informe legal: quién aceptó cada documento, cuándo y desde dónde, con alerta si alguna aceptación fue alterada."
+        }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-09-29",
+      "staff": [
+        {
+          "kind": "new",
+          "text": "Registra tu clínica, elige un plan y empieza con 15 días de prueba."
+        },
+        {
+          "kind": "new",
+          "text": "Una sola app para administración, doctores y recepción: cada uno ve solo lo que le toca."
+        }
+      ],
+      "patient": [
+        {
+          "kind": "new",
+          "text": "Activa tu acceso con el código o el enlace que te da tu clínica."
+        }
+      ],
+      "admin": [
+        {
+          "kind": "new",
+          "text": "Acceso al panel de la plataforma."
+        }
+      ]
+    }
+  ]
+}

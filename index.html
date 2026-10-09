@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SSDoc — Gestión de clínicas y app para pacientes</title>
+  <meta name="description" content="SSDoc Clínica reúne a la administración, los doctores y la recepción: agenda, fichas, historia clínica y exámenes. Tus pacientes usan la app SSDoc para registrarse, pedir citas y pagarlas. 15 días de prueba.">
+  <meta name="theme-color" content="#11AD97">
+  <meta property="og:title" content="SSDoc — Tu clínica y tus pacientes, conectados">
+  <meta property="og:description" content="Agenda, fichas, historia clínica y una app para tus pacientes. 15 días de prueba.">
+  <meta property="og:image" content="assets/logo-oscuro.png">
+  <link rel="icon" type="image/png" href="assets/logo-oscuro.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="SSDoc, inicio">
+        <picture>
+          <source srcset="assets/logo-oscuro.png" media="(prefers-color-scheme: dark)">
+          <img src="assets/logo-claro.png" alt="" width="36" height="36">
+        </picture>
+        SSDoc
+      </a>
+      <ul class="nav-links">
+        <li><a href="#roles">Para quién</a></li>
+        <li><a href="#como-empezar">Cómo empezar</a></li>
+        <li data-plans hidden><a href="#planes">Planes</a></li>
+        <li><a href="#pacientes">Pacientes</a></li>
+      </ul>
+      <a class="btn btn-sm btn-ghost" href="paciente/">Soy paciente</a>
+      <a class="btn btn-sm" href="app/">Entrar</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">Gestión de clínicas</span>
+          <h1>Tu clínica y tus pacientes, <span class="accent">conectados</span>.</h1>
+          <p class="lead">Con SSDoc Clínica, la administración, los doctores y la recepción llevan la agenda, las fichas, la historia clínica y los exámenes. Tus pacientes usan la app SSDoc: se registran con el QR de la clínica, piden citas y las pagan.</p>
+          <div class="btn-row">
+            <a class="btn btn-lg" href="app/registro-clinica">Registrar mi clínica</a>
+            <a class="btn btn-ghost btn-lg" href="#descargas">Descargar la app</a>
+          </div>
+          <ul class="checks">
+            <li>15 días de prueba desde que eliges el plan</li>
+            <li>Android y web (también desde el iPhone)</li>
+            <li>Datos de cada clínica aislados</li>
+          </ul>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="mock-head">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+          <div class="mock-body">
+            <div class="mock-title">Citas de hoy</div>
+            <div class="mock-row"><b>09:00</b><span>María G. · Control</span><em class="tag ok">Confirmada</em></div>
+            <div class="mock-row"><b>09:30</b><span>Luis R. · Primera visita</span><em class="tag">Agendada</em></div>
+            <div class="mock-row"><b>10:15</b><span>Ana P. · Resultados</span><em class="tag ok">Confirmada</em></div>
+            <div class="mock-row"><b>11:00</b><span>Pedido desde el portal</span><em class="tag new">Nueva</em></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roles" class="section">
+      <div class="wrap">
+        <h2>Una app para el equipo, otra para los pacientes</h2>
+        <p class="section-lead">SSDoc Clínica se adapta al rol de cada cuenta del equipo; los pacientes tienen la suya, SSDoc.</p>
+        <div class="grid-4">
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6M10 10h4"/></svg></div>
+            <h3>Administración</h3>
+            <p>Elige el plan, da de alta al equipo, reasigna citas y sigue el uso de pacientes, personal y almacenamiento.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3v6a4 4 0 0 0 8 0V3M10 13v3a5 5 0 0 0 10 0v-2"/><circle cx="20" cy="12" r="2"/></svg></div>
+            <h3>Doctores</h3>
+            <p>Su agenda, las fichas de sus pacientes, la historia clínica que firman y los exámenes: imágenes, PDF, DICOM y video.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4M8 14h3"/></svg></div>
+            <h3>Recepción</h3>
+            <p>Agenda y confirma citas con cualquier doctor, registra pacientes y muestra el QR de la clínica para que creen su cuenta.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></div>
+            <h3>Pacientes</h3>
+            <p>Se registran solos con el QR de la clínica, ven sus citas, piden una nueva con el doctor que prefieran y la pagan con el QR de cobro.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="como-empezar" class="section alt">
+      <div class="wrap">
+        <h2>Cómo empezar</h2>
+        <ol class="steps">
+          <li><b>Registra la clínica.</b> Con tu nombre, email y el de la clínica. Tú quedas como administrador.</li>
+          <li><b>Elige un plan.</b> Desde ese momento corren los 15 días de prueba.</li>
+          <li><b>Espera la aprobación.</b> La plataforma habilita la clínica y la app se abre sola.</li>
+          <li><b>Suma a tu equipo y a tus pacientes.</b> Crea las cuentas de doctores y recepción, y comparte el QR de registro: cada paciente crea su cuenta con la foto de su documento y tú la revisas.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="planes" class="section" data-plans hidden>
+      <div class="wrap">
+        <h2>Planes</h2>
+        <p class="section-lead">Todos empiezan con 15 días de prueba. Precios mensuales.</p>
+        <div class="grid-4" data-plans-list></div>
+      </div>
+    </section>
+
+    <section id="pacientes" class="section alt">
+      <div class="wrap patient">
+        <div>
+          <h2>¿Eres paciente?</h2>
+          <p>Escanea el QR de tu clínica o abre el enlace que te mandó: creas tu cuenta en un minuto, con la foto de tu documento. Si la clínica te dio un código de invitación, úsalo. Después entras siempre con tu email y contraseña.</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-lg" href="paciente/registro">Crear mi cuenta</a>
+          <a class="btn btn-ghost btn-lg" href="paciente/registro-paciente">Tengo un código de invitación</a>
+          <a class="btn btn-ghost btn-lg" href="paciente/">Entrar</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="descargas" class="section">
+      <div class="wrap downloads">
+        <div class="download-card" data-app="clinica">
+          <h2>SSDoc Clínica</h2>
+          <p>Para la administración, los doctores y la recepción. Android 7.0 o superior, o desde el navegador (también en la computadora de la recepción).</p>
+          <a class="btn btn-lg" data-download href="downloads/ssdoc-clinica.apk">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+            <span data-label>Descargar APK</span>
+          </a>
+          <a class="btn btn-ghost btn-lg" href="app/">Abrir en el navegador</a>
+          <dl class="meta">
+            <div><dt>Versión</dt><dd data-version>—</dd></div>
+            <div><dt>Tamaño</dt><dd data-size>—</dd></div>
+            <div><dt>Publicada</dt><dd data-date>—</dd></div>
+          </dl>
+          <p class="alt-download">¿Móvil antiguo? <a data-download32 href="downloads/ssdoc-clinica-32bits.apk">Versión de 32 bits</a></p>
+          <details class="sha"><summary>Verificar el archivo (sha256)</summary><code data-sha>—</code></details>
+        </div>
+        <div class="download-card" data-app="paciente">
+          <h2>SSDoc para pacientes</h2>
+          <p>Tus citas, pedir una nueva y pagarla con el QR de la clínica. Android 7.0 o superior, o desde el navegador (también en iPhone).</p>
+          <a class="btn btn-lg" data-download href="downloads/ssdoc-paciente.apk">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+            <span data-label>Descargar APK</span>
+          </a>
+          <a class="btn btn-ghost btn-lg" href="paciente/">Abrir en el navegador</a>
+          <dl class="meta">
+            <div><dt>Versión</dt><dd data-version>—</dd></div>
+            <div><dt>Tamaño</dt><dd data-size>—</dd></div>
+            <div><dt>Publicada</dt><dd data-date>—</dd></div>
+          </dl>
+          <p class="alt-download">¿Móvil antiguo? <a data-download32 href="downloads/ssdoc-paciente-32bits.apk">Versión de 32 bits</a></p>
+          <details class="sha"><summary>Verificar el archivo (sha256)</summary><code data-sha>—</code></details>
+        </div>
+        <div data-changelog class="changelog download-card wide" hidden>
+          <h3>Novedades</h3>
+          <div data-changelog-body></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span>© <span data-year></span> SSDoc</span>
+      <span><a href="app/">Entrar (clínica)</a> · <a href="paciente/">Pacientes</a></span>
+      <span class="footer-legal"><a href="legal/terminos-doctor/">Términos (profesionales)</a> · <a href="legal/terminos-paciente/">Términos (pacientes)</a> · <a href="legal/privacidad/">Privacidad</a></span>
+    </div>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
