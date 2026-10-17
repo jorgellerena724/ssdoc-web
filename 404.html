@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SSDoc</title>
+  <script>
+  (function () {
+    var base = "/";
+    var path = location.pathname;
+    var rest = location.search + location.hash;
+    var legacy = base + 'app/registro-paciente';
+    if (path.indexOf(legacy) === 0) {
+      location.replace(base + 'paciente/registro-paciente' + path.slice(legacy.length) + rest);
+      return;
+    }
+    var app = path.indexOf(base + 'paciente/') === 0 ? 'paciente'
+      : path.indexOf(base + 'app/') === 0 ? 'app' : null;
+    if (!app) { location.replace(base); return; }
+    fetch(base + app + '/index.html', { cache: 'no-cache' })
+      .then(function (res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.text();
+      })
+      .then(function (html) { document.open(); document.write(html); document.close(); })
+      .catch(function () { location.replace(base + app + '/'); });
+  })();
+  </script>
+</head>
+<body></body>
+</html>
